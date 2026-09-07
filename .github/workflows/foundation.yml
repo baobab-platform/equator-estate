@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   foundation:
-    uses: nabhold/shared/.github/workflows/foundation-repository-gates.yml@c518b9aa7be1e67c2b9d360c75a97123ee47382f
+    uses: nabhold/shared/.github/workflows/foundation-repository-gates.yml@0d61ba0ffa1ede9b0a0a27321792e3fd4849921f
     with:
       dockerfile: "Dockerfile"
       build_context: "."

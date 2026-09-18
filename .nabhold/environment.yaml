@@ -7,7 +7,7 @@ application:
 environment:
   provider: "baobab-dev"
   profile: "full"
-  minimum_version: "1.2.6"
+  minimum_version: "1.4.1"
   contract_minimum_version: "1.0"
 compatibility_policy:
   strict_runtime_versions: true
@@ -21,5 +21,5 @@ validation:
     - "development.docker"
     - "development.github_cli"
 notes:
-  - "Codespaces uses ghcr.io/nabhold/baobab-dev:1.2.6."
+  - "Codespaces uses ghcr.io/nabhold/baobab-dev:1.4.1."
 

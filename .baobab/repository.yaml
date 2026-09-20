@@ -1,0 +1,15 @@
+schema_version: 1
+repository:
+  lifecycle: active
+capabilities:
+  - python
+  - container
+  - digital-estate
+environment:
+  baobab_dev:
+    required: true
+    profile: full
+package_managers:
+  python: pip
+artifacts:
+  container: true
